@@ -8,7 +8,7 @@ ENV cc=gcc
 RUN apt-get update  && apt-get install -y \
     texlive-xetex texlive-latex-recommended texlive-latex-extra \
     latex-cjk-chinese fonts-arphic-gbsn00lp fonts-wqy-microhei fonts-wqy-zenhei texlive-fonts-recommended \
-    libglib2.0-dev git make cmake g++ \
+    libglib2.0-dev git make cmake g++ imagemagick \
     && git clone https://github.com/fletcher/MultiMarkdown-6.git \
     && cd MultiMarkdown-6 \
 #    && ./update_git_modules \
